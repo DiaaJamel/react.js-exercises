@@ -1,0 +1,55 @@
+.card {
+    height: 450px;
+    width: 300px;
+    border: 1px black solid;
+    border-radius: 20px;
+    background: white;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.firstContainer {
+    background-image: url(https://image.freepik.com/free-photo/majestic-view-fantastic-starry-dark-sky-magnificent-carpathian-mountains-covered-with-evergreen-forest-snow-capped-peaks-distance-breathtaking-panorama-beauty-magic-nature_127089-4947.jpg);
+    /* height: 90px; */
+    /* border-radius: 10px; */
+    margin: 0;
+    padding: 0;
+}
+
+.firstContainer img {
+    background-color: black;
+    border-radius: 50px;
+    height: 90px;
+    /* margin: 30px 105px; */
+    transform: translate(81px, 50px);
+}
+.firstContainer button{
+    margin: 1rem 0 0 17rem;
+}
+
+.secondContainer {
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(141, 137, 137);
+}
+.secondContainer h5 {
+    margin: 10px;
+
+}
+.secondContainer p {
+    margin: 2rem 1rem 1rem 0;
+    height: 120px;
+    /* width: 220px; */
+    align-items: center;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.secondContainer a {
+    margin: 10px;
+    display: inline;
+}
+
+.fab {
+    color: rgb(141, 137, 137);
+}
